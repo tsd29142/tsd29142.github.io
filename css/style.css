@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav p {
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.splash img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid pink;
+}
+
+.splash {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  margin: 10px;
+}
+
+h1 {
+    font-family: "Kalnia Glaze", serif;
+}
+
+ p {
+    font-family: "Kalnia Glaze", serif;
+    border: 5px solid pink;
+    border-style: ridge;
+    margin: 10px;
+}
+
+h2 {
+    font-family: "Kalnia Glaze", serif;
+    margin: 10px;
+}
+
+h2 p {
+    font-family: "Kalnia Glaze", serif;
+    border: 5px solid pink;
+    border-style: ridge;
+}
+
+dl {
+    font-family: "Kalnia Glaze", serif;
+    margin: 10px;
+    border: 5px solid pink;
+    border-style: ridge;
+}
+
+ul {
+    font-family: "Kalnia Glaze", serif;
+    border: 5px solid pink;
+    border-style: ridge;
+    margin: 10px;
+}
+
+ul {
+    margin: 10px;
+    font-family: "Kalnia Glaze", serif;
+    border: 5px solid pink;
+    border-style: ridge;
+}
+
+h3 {
+    margin: 10px;
+    font-family: "Kalnia Glaze", serif;
+}
+
+a {
+    color: white;
+}
+
+.grid-layout {
+    display: grid;
+}
+
+footer a {
+    color: pink;
+    padding: 10px;
+}
+
+a:hover {
+    font-size: 20px;
+    transition: 2s;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    gap: 10px;
+}
+
+.three-col img {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 20px;
+    border-radius: 50px;
+ 
+}
+
+.card:hover {
+   background-color: aliceblue;
+   transition: 2s;
+}
+
+.one-col {
+    display: flex;
+    grid-template-columns: 1fr;
+    height: 100%;
+    justify-content: center;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid pink;
+    border-radius: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.textarea {
+    height: 500px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
